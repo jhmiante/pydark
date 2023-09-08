@@ -1,0 +1,10 @@
+# Rebuild
+python setup.py sdist bdist_wheel
+
+# Upload
+twine upload dist/*
+
+
+
+python setup.py sdist bdist_wheel
+twine upload dist/*
