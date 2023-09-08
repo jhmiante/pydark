@@ -1,4 +1,4 @@
-<h1>Python Package: darkpy</h1>
+<h1>Python Package: pydark</h1>
 
 <b>Description:</b>
 <p>
