@@ -1,3 +1,3 @@
-from darkpy.text.number import money
+from pydark.text.number import number_to_percent
 
-print(money(55005.55, True))
+print(number_to_percent(0.2532))

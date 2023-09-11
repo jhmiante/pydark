@@ -8,3 +8,8 @@ def number_to_money(number, simbol=False, txt_simbol='brl'):
 
     if simbol: number = f"{S} {number}"
     return number
+
+
+def number_to_percent(number, simbol=True):
+    simbol = '%' if simbol else ''
+    return '{:.2f}{}'.format(number * 100, simbol)
