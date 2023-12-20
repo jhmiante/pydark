@@ -46,6 +46,11 @@ def add(dt, year=0, month=0, day=0, hour=0, minute=0, second=0):
         dt = addYear(dt, year)
     return dt + timedelta(days=day, hours=hour, minutes=minute, seconds=second)
 
-def dateDiff(first_dt, second_dt):
-     return second_dt - first_dt
+def dateDiff(first_dt, second_dt, on='month'):
+     """on=['day', 'month', 'year']"""
+
+     if on == 'day': return (second_dt - first_dt).days
+     elif on == 'month': return (second_dt.year - first_dt.year) * 12 + (second_dt.month - first_dt.month)
+     elif on == 'year': return second_dt.year - first_dt.year
+     else: raise Exception("Invalid 'on' option, must be one of the following options: 'day', 'month', 'year'")
     
