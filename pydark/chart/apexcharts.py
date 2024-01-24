@@ -7,8 +7,8 @@ class Chart:
                 background= '343E59',    
                 fontFamily= "Crimson Text",
                 fontSize = 12,
-                width = 800,
-                height = 600,
+                width = None,
+                height = None,
                 dropShadowTop = -7,
                 dropShadowLeft = 7,
                 dropShadowBlur = -10,
@@ -75,14 +75,12 @@ class Chart:
         return dataset
     
     def chart(self): 
-        return {
+        chart = {
                 "id": self.chartId,
                 "type": self.plot_type,
                 "foreColor": f"#{self.foreColor}",
                 "background": f"#{self.background}",    
-                "fontFamily": self.fontFamily,          
-                "width": self.width,
-                "height": self.height,
+                "fontFamily": self.fontFamily, 
                 "dropShadow": {
                     "enabled": "true",
                     "top": self.dropShadowTop,
@@ -90,6 +88,8 @@ class Chart:
                     "blur": self.dropShadowLeft
                 },  
             }
+        if self.width is not None: chart["width"] = self.width
+        if self.height is not None: chart["height"] = self.height
 
     def plotOptions(self):
         return {
@@ -155,10 +155,7 @@ class Chart:
             }
 
     def theme(self):
-        return {
-                "mode": "dark",
-                "palette": self.palette2
-            }
+        return {"palette": self.palette2}
 
     def options(self):
         return {
