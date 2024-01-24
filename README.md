@@ -22,20 +22,28 @@
     pydark é uma biblioteca Python com funcionalidades úteis, sendo:
 </p>
 <ul>
-    <li>Data</li>    
+    <li> <b>Charts</b>
+        <ul>
+            <li>ApexChartsJS</li>
+        </ul>
+    </li> 
+    <li> <b>Data</b>
         <ul>
             <li>Diferença de Datas</li>
             <li>Busca de Dias Úteis</li>
             <li>Último dia/Data do Mês</li>
         </ul>
-    <li>Cálculos</li>  
+    </li> 
+    <li> <b>Cálculos</b>
         <ul>
             <li>Normalização de Média</li>
         </ul>
-    <li>Texto</li>   
+    </li>
+    <li> <b>Texto</b>
         <ul>
             <li>Número para Texto no Formato de Moeda</li>
         </ul>
+    </li>
 </ul>
 
 <hr>
