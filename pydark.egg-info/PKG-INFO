@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pydark
-Version: 0.0.2
+Version: 0.0.4
 Summary: DarkPy is a Python library which brings some useful calculations
 Description-Content-Type: text/markdown
 
@@ -28,25 +28,49 @@ Description-Content-Type: text/markdown
     pydark é uma biblioteca Python com funcionalidades úteis, sendo:
 </p>
 <ul>
-    <li>Data</li>    
+    <li> <b>Charts</b>
+        <ul>
+            <li>ApexChartsJS</li>
+        </ul>
+    </li> 
+    <li> <b>Data</b>
         <ul>
             <li>Diferença de Datas</li>
             <li>Busca de Dias Úteis</li>
             <li>Último dia/Data do Mês</li>
         </ul>
-    <li>Cálculos</li>  
+    </li> 
+    <li> <b>Cálculos</b>
         <ul>
             <li>Normalização de Média</li>
         </ul>
-    <li>Texto</li>   
+    </li>
+    <li> <b>Texto</b>
         <ul>
             <li>Número para Texto no Formato de Moeda</li>
         </ul>
+    </li>
 </ul>
 
 <hr>
 <b>Instalação:</b>
 <p>pip install pydark</p>
+<hr>
+
+### Chart:
+
+<div style="background-color: #110011;; color: #fff; padding: 20px;">
+Python
+<hr style="border-color: #fff">
+<br>
+from pydark.chart.apexcharts import Chart
+
+</div>
+
+
+
+<hr>
+
 
 <hr>
 <hr>

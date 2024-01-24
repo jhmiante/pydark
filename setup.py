@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='pydark',
-    version='0.0.3',
+    version='0.0.4',
     description='DarkPy is a Python library which brings some useful calculations',
     long_description=long_description,
     long_description_content_type="text/markdown",

@@ -5,6 +5,8 @@ python setup.py sdist bdist_wheel
 twine upload dist/*
 
 
+username: __token__
 
 python setup.py sdist bdist_wheel
 twine upload dist/*
+username: __token__

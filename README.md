@@ -49,6 +49,22 @@
 <hr>
 <b>Instalação:</b>
 <p>pip install pydark</p>
+<hr>
+
+### Chart:
+
+<div style="background-color: #110011;; color: #fff; padding: 20px;">
+Python
+<hr style="border-color: #fff">
+<br>
+from pydark.chart.apexcharts import Chart
+
+</div>
+
+
+
+<hr>
+
 
 <hr>
 <hr>

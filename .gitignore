@@ -4,3 +4,5 @@ dist/
 
 darkpy.egg-info/
 .version/
+
+.env

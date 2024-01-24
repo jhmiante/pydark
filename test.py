@@ -1,9 +1,6 @@
-from pydark.date.dtmath import dateDiff
-from datetime import datetime
+from pydark.chart.apexcharts import Chart, ChartExemple
 
-ini = datetime(2023,1,1)
-fim = datetime(2024,3,1)
 
-print(dateDiff(ini, fim))
+print(ChartExemple())
 
 

@@ -5,6 +5,8 @@ pydark.egg-info/PKG-INFO
 pydark.egg-info/SOURCES.txt
 pydark.egg-info/dependency_links.txt
 pydark.egg-info/top_level.txt
+pydark/chart/__init__.py
+pydark/chart/apexcharts.py
 pydark/date/__init__.py
 pydark/date/dtget.py
 pydark/date/dtmath.py
