@@ -91,6 +91,8 @@ class Chart:
         if self.width is not None: chart["width"] = self.width
         if self.height is not None: chart["height"] = self.height
 
+        return chart
+
     def plotOptions(self):
         return {
                 "bar": {
